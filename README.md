@@ -1,4 +1,5 @@
 download and move the files except build.gradle and proguard-rules into your Android Studio workspace
+
 for example: C:/Users/Student1/Android Studio Worskpace/app/src/<your_project>
 Make sure <your_project> contains the three files
 Move the last 2 files inside your workspace
