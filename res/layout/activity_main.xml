@@ -1,0 +1,105 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/button_first"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_background_shape"
+        android:onClick="openShoulders"
+        android:text="Shoulders"
+        android:textSize="35dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button_second"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_background_shape"
+        android:onClick="openArms"
+        android:text="Bicep"
+        android:textSize="35dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button_third"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_background_shape"
+        android:onClick="openBack"
+        android:text="Back"
+        android:textSize="35dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button_fourth"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_background_shape"
+        android:onClick="openChest"
+        android:text="Chest"
+        android:textSize="35dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button_fifth"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_background_shape"
+        android:onClick="openAbs"
+        android:text="Abs"
+        android:textSize="35dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button_sixth"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_background_shape"
+        android:onClick="openLegs"
+        android:text="Legs"
+        android:textSize="35dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button_seventh"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_background_shape"
+        android:onClick="openCalfs"
+        android:text="Calves"
+        android:textSize="35dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button_eighth"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_background_shape"
+        android:onClick="openTricep"
+        android:text="Tricep"
+        android:textSize="35dp"
+        android:textColor="@color/white" />
+</LinearLayout>
